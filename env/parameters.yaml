@@ -1,0 +1,15 @@
+adminUser:
+  password: local:jx-sandbox/adminUser:password
+  username: admin
+docker:
+  email: suresh.palemoni@gmail.com
+  password: local:jx-sandbox/docker:password
+  url: https://index.docker.io/v1/
+  username: sureshpalemoni
+enableDocker: true
+pipelineUser:
+  email: suresh.palemoni@gmail.com
+  token: local:jx-sandbox/pipelineUser:token
+  username: root
+prow:
+  hmacToken: local:jx-sandbox/prow:hmacToken
